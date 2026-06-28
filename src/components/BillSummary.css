@@ -1,0 +1,75 @@
+.bill-summary {
+  padding: 1.75rem;
+  height: fit-content;
+  position: sticky;
+  top: 94px;
+}
+
+.summary-title {
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid var(--border-color);
+  padding-bottom: 0.75rem;
+  color: var(--text-primary);
+}
+
+.summary-details {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.summary-row {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+}
+
+.discount-row {
+  color: var(--success);
+  font-weight: 500;
+}
+
+.free-delivery {
+  color: var(--success);
+  font-weight: 700;
+}
+
+.delivery-tip {
+  font-size: 0.8rem;
+  color: var(--warning);
+  margin-top: -0.5rem;
+  font-weight: 500;
+}
+
+.summary-divider {
+  height: 1px;
+  background: var(--border-color);
+  margin: 0.5rem 0;
+}
+
+.grand-total-row {
+  font-size: 1.25rem;
+  font-weight: 800;
+  color: var(--text-primary);
+  font-family: var(--font-display);
+}
+
+.summary-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-top: 2rem;
+}
+
+.checkout-btn {
+  width: 100%;
+  padding: 0.9rem;
+}
+
+.clear-btn {
+  width: 100%;
+  padding: 0.75rem;
+}
